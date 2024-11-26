@@ -1,0 +1,1175 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Condiment&family=Festive&family=Lobster&family=Oswald:wght@200..700&family=Permanent+Marker&display=swap');
+
+/* :root{
+
+   --codi:"Condiment, cursive";
+   --fesitve:"Festive", cursive;
+   --per-mark:"Permanent Marker", cursive;
+   --lobster:"Lobster", sans-serif;
+   --anton:"Anton", sans-serif;
+   --oswald:"Oswald", sans-serif;
+        
+
+} */
+.condiment{
+    font-family: "Condiment", cursive; 
+    font-weight: 400;
+    font-style: normal;
+  }
+  .festive {
+    font-family: "Festive", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .permanent-mark {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .lobster {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .anton {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.oswald{
+  font-family: "Oswald", sans-serif;
+  
+  font-style: normal;
+}
+  
+
+   
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+header {
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    position: sticky;
+    top: 0%;
+
+    
+}
+.title::first-letter{
+      color: red;
+      
+
+}
+ul{
+    
+    display: flex;
+    
+    justify-content: space-evenly;
+    align-self: baseline;
+    font-size: 1.2em;
+    list-style-type: none;
+    text-transform: uppercase;
+
+
+}
+ul li{
+    margin-left:  1rem;
+}
+#btn1{
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(224, 31, 31);
+    border-radius: 5px;
+    color: #fff;
+    
+    box-sizing: border-box;
+}
+#btn1:hover{
+    background-color: #14a83a;
+ }
+
+.firstpage{
+    background-image:url(./hotelback.jpg) ;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size:cover;
+ width: 100%;
+ height:100vh;
+ display: flex;
+ 
+
+
+
+}
+.firstcon{
+    margin-left: 10%;
+    margin-top: 10%;
+   
+}
+.firstcon h2{
+    color: yellow;
+    text-transform: uppercase;
+    font-weight:bold;
+}
+.firstcon h1{
+    color: white;
+    width: 90%;
+    font-size: 4em;
+    text-transform: capitalize;
+    font-weight: 700;
+    
+
+}
+b{
+    color: red;
+}
+.firstcon p{
+    color: white;
+    font-size: 1.5em;
+    width: auto;
+    margin-top: 3%;
+    font-weight: 600;
+}
+#btn11{
+ width: 50%;
+ padding: 20px;
+ color: white;
+ background-color: red;
+ font-size: 2em;
+ border: none;
+ border-radius: 10px;
+ margin-top: 5%;
+ text-transform: capitalize;
+ text-decoration: underline ;
+ 
+}
+#btn11:hover{
+    background-color: #14a83a;
+}
+.firstpic{
+    margin-top: 4%;
+    margin-right: 10%;
+}
+.secondpage{
+    width: 100%;
+    height: 100vh;
+   
+    padding-top: 10%;
+    
+}
+.firstline{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.firstline h1{
+    font-size: 3em;
+    text-transform: uppercase;
+    color: black;
+
+}
+.firstline button{
+     width: 10%;
+     padding: 10px;
+     font-size: 1em;
+     border: 1px solid red;
+     border-radius: 5px;
+     text-transform: capitalize;
+     font-weight: 600;
+}
+
+.categories{
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.items{
+    width: 20%;
+    border: 2px solid black;
+    height: 15vh;
+     padding-top: 30px;
+    padding-left: 15px; 
+    
+    font-size: 1.5em;
+     background-color: aliceblue;
+     border: none;
+     border-radius: 10px;
+    
+}
+.item1{
+    display: flex;
+    justify-content: space-around;
+}
+.bold{
+    font-weight: bolder;
+    text-transform:capitalize;
+    
+}
+.content1{
+    margin-top: 7px;
+   
+}
+.price{
+    color: gray;
+    font-size:20px;
+}
+.pic{
+    background-color: white;
+    border-radius: 50px;
+    padding: 5px;
+}
+.secondpage2{
+    padding-top: 10%;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10%;
+   
+    
+}
+.secondpage2-1{
+    margin-left: 5%;
+}
+.secondpage2 h2{
+    color: orange;
+    text-transform: uppercase;
+}
+.secondpage2 h1{
+    width: 90%;
+     color: black;
+     font-size: 3em;
+     text-transform: uppercase;
+     font-style: normal;
+     font-weight: bold;
+}
+.secondpage2 p{
+    width: 75%;
+    font-size: 1.2em;
+    padding-top: 10px;
+    color: gray;
+    font-weight: lighter;
+    line-height: 30px;
+}
+.secondpage2-icon{
+    display: flex;
+    
+   
+    justify-content: space-around;
+    margin-top: 30px;
+    
+}
+
+.secondpage2-icon1{
+    
+    display: flex;
+    padding-top: 3%;
+    
+    width: 40%;
+    background-color: beige;
+    justify-content: center;
+    justify-content: space-around;
+   border-radius: 10px;
+    
+}
+.secondpage2-icon1:hover{
+    box-shadow: 2px 2px 2px 5px rgb(110, 107, 107);
+}
+.secondpage2-icon2{
+    display: flex;
+    padding-top: 3%;
+    width: 40%;
+    background-color: beige;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+.secondpage2-icon2:hover{
+    box-shadow: 2px 2px 2px 5px rgb(153, 146, 146);
+}
+.icon2{
+    margin-right: 15%;
+}
+.icon22{
+    margin-right: 15%;
+}
+.icon2 h1{
+    font-size: 2em;
+   
+}
+.icon2 p{
+    text-transform: capitalize;
+}
+.icon22 h1{
+    font-size: 2em;
+}
+.icon22 p{
+    text-transform: capitalize
+}
+.second-icons{
+    padding: 5%;
+    margin-left: 25%;
+ }
+ .btn4{
+    margin-top: 10%;
+    height: 10%;
+    width: 30%;
+   background-color: red;
+   font-size: 1.4em;
+   color: white;
+   border: none;
+   border-radius: 15px;
+   text-transform: capitalize;
+   font-weight: 700;
+    
+ }
+ .btn4:hover{
+    background-color: #14a83a;
+ }
+ .offers{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10%;
+    background-image: url(./—Pngtree—abstract\ kitchen\ in\ restaurant\ blurred_15503563.png);
+   background-size: cover;
+   
+}
+.offerimg{
+    margin-right: 10%;
+}
+ .discount{
+    margin-left: 10%;
+ }
+ .discount p{
+    color: orange;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1em;
+ }
+  .discount h1{
+    font-size: 4em;
+    width: 80%;
+    text-transform: uppercase;
+    color: white;
+  }
+  .discount4{
+    
+    margin-top: 5%;
+    width: 50%;
+    
+   display: flex;
+   justify-content: space-between;
+   column-gap: 3%;
+   
+   
+
+  }
+  .ds4{
+    
+    border: 1px solid black;
+    padding: 5%;
+    border-radius: 10px;
+    border: none;
+    background-image: url(./bg\ color.jpeg);
+    background-size: cover;
+  }
+  .ds4 p{
+    color: black;
+    font-weight: bold;
+  }
+  .btn5{
+    margin-top: 10%;
+    height: 15%;
+    width: 30%;
+   background-color: rgb(241, 34, 34);
+   font-size: 1.4em;
+   color: white;
+   border: none;
+   border-radius: 15px;
+   text-transform: capitalize;
+   font-weight: 700;
+    
+ }
+ .btn5:hover{
+    background-color: #14a83a;
+ }
+ .choose{
+    width: 100%;
+    height: 90vh;
+    padding-bottom: 7%;
+ }
+ .choose-first{
+    text-align: center;
+    margin-top: 10%;
+ }
+ .choose-first p{
+    color: orange;
+    text-transform: uppercase;
+    font-size: 2em;
+ }
+ .choose-first h1{
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding-top: 1%;
+ }
+.choose-second{
+    width: 95%;
+    display: flex;
+    column-gap: 6%;
+  margin-left: 3%;
+  margin-top: 4%;
+  
+}
+.choose-2-2{
+     height: 50%;
+     width:45%;
+     
+     
+ 
+}
+.box1{
+    
+    width: 20%;
+    height: 50vh;
+    text-align: center;
+    padding-top: 3%;
+    border-radius: 10px;
+    background-color: beige;
+    color: rgb(134, 126, 115);
+ 
+}
+.box1:hover{
+color: white;
+transform: translateY(30px);
+
+transition: 3s;
+  background-color:rgba(238, 39, 39, 0.979);
+
+}
+.choose-1 h1{
+    text-transform: capitalize;
+    padding-top: 5%;
+    font-size: 1.9em;
+    font-weight: 900;
+    color: orange;
+}
+.choose-1 p{
+     text-transform: capitalize;
+     font-size: 1.2em;
+     padding-top: 2%;
+   
+}
+.choose-2 h1{
+    text-transform: capitalize;
+    padding-top: 5%;
+    font-size: 1.9em;
+    font-weight: 900;
+    color: orange;
+}
+.choose-2 p{
+     text-transform: capitalize;
+     font-size: 1.2em;
+     padding-top: 2%;
+     
+}
+
+.choose-3 h1{
+    text-transform: capitalize;
+    padding-top: 5%;
+    font-size: 1.9em;
+    font-weight: 900;
+    color: orange;
+}
+.choose-3 p{
+     text-transform: capitalize;
+     font-size: 1.2em;
+     padding-top: 2%;
+     
+}
+.choose-4 h1{
+    text-transform: capitalize;
+    padding-top: 5%;
+    font-size: 1.9em;
+    font-weight: 900;
+    color: orange;
+}
+.choose-4 p{
+     text-transform: capitalize;
+     font-size: 1.2em;
+     padding-top: 2%;
+}
+.booking{
+    height: 84vh;
+    width: 100%;
+   background-image: url(./bgg\ 2.jpg);
+   background-size: cover;
+   display: flex;
+   justify-content: space-around;
+   padding-top: 10%;
+}
+
+.reserv{
+     margin-left: 7%;
+
+}
+.reserv-1 p{
+    color: orange;
+    font-size: 1.5em;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.reserv-1 h1{
+    padding-top: 2%;
+     color: whitesmoke;
+      font-size: 3em;
+      text-transform: uppercase;
+      font-weight: bold;
+      width: 95%;
+
+}
+.reserv-1 h2{
+       color: orange;
+       text-transform: capitalize;
+       padding-top: 3%;
+}
+.phone-pic img{
+    height: 90%;
+    width: 30%;
+    
+    margin-left: 60%;
+    background-color: #14a83a;
+    padding: 1.4%;
+    border-radius: 15px;
+    
+}
+.phone-no{
+    width: 90%;
+    display: flex;
+    
+    position: relative;
+    right: 22%;
+    margin-top: 5%;
+   
+    
+}
+
+.phone-num{
+   
+    
+    width: 100%;
+    margin-right: 10%;
+    padding-left: 2%;
+    color: white;
+    font-weight: 900;
+     background-color: #14a83a;
+     border-radius: 15px;
+}
+.phone-num h1{
+    font-size:1.8em;
+    padding-top: 7%;
+    
+
+}
+.booking-table{
+     margin-right: 5%;
+     background-color: #14a83a;
+     height: 83vh;
+     width: 80%;
+     border-top-left-radius: 20px;
+     border-top-right-radius: 20px;
+     box-shadow: 2px 2px 6px 7px rgb(238, 199, 26);
+}
+.booking-table:hover{
+    transform: translateX(50px);
+     transition: 7s;
+}
+.table-head{
+    color: white;
+       padding-top: 4%;
+       text-align: center;
+       text-transform: uppercase;
+       font-size: 1.4em;
+       font-weight: bolder;
+       
+    }
+    .table-1{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 5%;
+    }
+    .table-2{
+        display: flex;
+        
+        margin-top: 5%;
+        column-gap: 17%;
+        margin-left: 12%;
+    }
+    .border-table{
+       
+         padding: 4%;
+         border-radius: 10px;
+         color: white;
+         font-style: normal;
+         text-transform: capitalize;
+         font-size: 0.6em;
+         background-color: #21a141;
+         box-shadow: 1px 2px 2px 2px white;
+    }
+    .date{
+        width: 23%;
+        margin-left: 8%;
+    
+        
+    }
+    .table-3{
+        border-radius: 10px;
+        padding: 4%;
+        color: white;
+        width:77%;
+        margin-left: 7%;
+        margin-top: 5%;
+        text-transform: capitalize;
+        background-color: #21a141;
+       
+        box-shadow: 4px 2px 2px 2px white;
+
+
+    }
+    .table-3 h1{
+        font-size: 1.3em;
+       
+    }
+    .table-3 h2{
+        font-size: 1.3em;
+        text-align: center;
+        
+    }
+    .bgcolor{
+        background-color: #FFB200;
+    }
+    .menu{
+        padding-top: 9%;
+        width: 100%;
+        height: 80vh;
+       
+    }
+    .menu-title{
+        text-align: center;
+    }
+    .menu-title h3{
+         color: #FFB200;
+         font-size: 3em;
+         text-transform: uppercase;
+    }
+    .menu-title h1{
+        font-size: 4em;
+        width: 37%;
+       margin-left: 32%;
+       text-transform: uppercase;
+       font-weight: 900;
+    }
+    .menu-1{
+        padding-top: 7%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+ 
+    .small-pic{
+       text-align: center;
+       border: 1px black dotted;
+       margin-top: 5%;
+       padding: 3%;
+       height: 17%;
+       background-color: rgb(245, 244, 244);
+       
+    }
+    .small-pic:hover p{
+   
+        display: none;
+    }
+    .small-pic:hover h2{
+   
+        display: none;
+    }
+    .small-pic:hover img{
+           
+       height: 50%;
+       width: 25%;
+        
+    }
+    .small-pic:hover{
+         background:-webkit-linear-gradient(red,yellow,#FFB200);
+         transform: translateX(10%);
+         transition: 10s;
+    
+        
+    }
+   
+    .small-pic h1{
+         text-transform: capitalize;
+         font-size: 1.9em;
+    }
+    .small-pic p{
+        font-size: 1.1em;
+        color: rgb(228, 141, 41);
+        padding-top: 1%;
+    }
+    .small-pic h2{
+        color: rgb(218, 44, 44);
+        
+        font-weight: 900;
+
+    }
+    
+
+    .indian-foods{
+         width: 100%;
+         height: 80%;
+         
+         padding-top: 7%;
+    }
+    .title-indian{
+   text-align: center;
+    }
+    .title-indian h1{
+          font-size: 5em;
+          text-transform: uppercase;
+    }
+    .title-indian p{
+        font-size: 2em;
+        text-transform: capitalize;
+        color: #FFB200;
+        font-weight: 700;
+    }
+.indian-item{
+    display: flex;
+     width: 100%;
+     column-gap: 3%;
+     margin-top: 3%;
+}
+.indian-pic-size{
+     width: 20%;
+     
+}
+
+.indian-pic-size:hover{
+     transform: translateX(10px);
+     animation-name: foods;
+     animation-duration: 4s;
+    
+     animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+     @keyframes foods {
+          from{
+            margin-left: 20px;
+            animation-iteration-count: infinite;
+          }
+        
+      
+     }
+
+.footer{
+    width: 100%;
+    height: 90vh;
+  background-image: url(./footer\ img.jpg);
+   padding-top: 8%;
+   background-size: cover;
+ /* filter: blur(3px);   */
+
+ position: relative;
+}  
+.footer-1{
+      position: absolute;
+      top: 0%;
+      background-color: gray;
+      opacity: 0.3;
+      left: 0%;
+      width: 100%;
+      height: 100%;
+}
+
+.footer-inner{
+    position: absolute;
+    z-index: 5;
+    
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+
+.footer-inner-1{
+    flex-basis: 20%;
+}
+.footer-inner-1 h1{
+      font-size: 5em;
+}
+.footer-inner-1 h1::first-letter{
+     font-size: 1.5em;
+     color: rgb(241, 35, 35);
+     
+    
+}
+.footer-inner-1 p{
+    width: 90%;
+    font-size: 1.3em;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.icons-footer{
+    margin-top: 7%;
+   display: flex;
+   
+      width: 70%;
+
+}
+.footer-icons:hover{
+    background-color: red;
+    border-radius: 18px;
+}
+.footer-icons{
+    width: 90%;
+    
+    
+}
+.footer-inner-2{
+    margin-top: 4%;
+      flex-basis: 20%;
+}
+.footer-inner-2 h1{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1.9m;
+}
+.footer-inner-2 p{
+    padding-top: 3%;
+    font-size: 1.2em;
+    font-weight: 800;
+    padding-bottom: 5%;
+}
+.footer-inner-2 h3{
+    padding-top: 2%;
+    font-size: 1.8em;
+}
+
+
+
+.footer-inner-3{
+    flex-basis: 20%;
+    margin-top: 4%;
+}
+.footer-inner-3 h1{
+    text-transform: uppercase;
+}
+.footer-inner-3 h2{
+     text-transform: capitalize;
+     font-size: 1.7em;
+     padding: 2%;
+}
+
+
+.footer-inner-4{
+    flex-basis: 20%;
+  margin-top: 4%;
+}
+.footer-inner-4 h1{
+    text-transform: uppercase;
+}
+.footer-inner-4 h2{
+     text-transform: capitalize;
+     font-size: 1.3em;
+     padding: 2%;
+}
+
+
+.footer-end{
+    margin-top: 27%;
+    text-align: center;
+    
+}
+
+.footer-end h1{
+     color: #fff;
+     font-size: 1.3em;
+     text-transform: capitalize;
+     padding-top: 1%;
+}
+.delivery-bike{
+     
+   position: relative;
+   right: 200px;
+    width: 25%;
+    filter: brightness(100%);
+  
+    animation-duration: 5s;
+    animation-direction: reverse;
+    animation-name: bike; 
+    animation-iteration-count: infinite;  
+ }
+@keyframes bike {
+ from{
+    position: relative;
+   
+    transform: translateX(1450px);
+    
+    animation-iteration-count: infinite;
+    animation-duration: 70s;
+   
+ }
+
+ 
+    
+}
+
+a{
+    text-decoration: none;
+    color: #FFB200;
+}
+.map{
+    /* margin-right: 6%; */
+    position: fixed;
+    left: 90%;
+   z-index: 4;
+     
+}
+.a:hover{
+    box-shadow: 2px 2px 6px 9px orange;
+    background-image: url(./gallery-14.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.b:hover{
+    box-shadow: 2px 2px 6px 9px orange;
+    background-image: url(./gallery-15.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.c:hover{
+    box-shadow: 2px 2px 6px 9px orange;
+    background-image: url(./gallery-16.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.d:hover{
+    box-shadow: 2px 2px 6px 9px orange;
+    background-image: url(./gallery-17.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+
+
+
+
+/* media querry */
+
+@media screen and (max-width:700px) {
+     ul{
+        display: none;
+     }
+     .firstcon{
+        font-size: 15px;
+     }
+     .firstcon button{
+        height: 17%;
+        
+     }
+     .firstpage img{
+         width: 100%;
+         padding-top: 70%;
+     }
+     .firstline h1{
+        margin-left:5%;
+     }
+     .firstline button{
+        display: none;
+     }
+     .categories{
+        display: block;
+
+     }
+     .items{
+        width: 80%;
+        margin-left: 8%;
+        margin-top: 4%;
+     }
+     .secondpage2{
+        display: block;
+     }
+     .secondpage2-1 img{
+        width: 400px;
+        
+     }
+     .aboutus{
+        padding-top: 4%;
+        margin-left: 10%;
+        text-align: center;
+     }
+     .aboutus p{
+        margin-left: 10%;
+     }
+     .btn4{
+        height: 10vh;
+        width: 50%;
+     }
+     .offerimg img{
+        width: 220px;
+    
+     }
+     .btn5{
+        width: 80%;
+        margin-left: 50%;
+     }
+    
+     .choose-2-2{
+        height: 60%;
+        width:20%;
+     }
+      .choose-second{
+      display: block;
+      }  
+      .choose-first{
+        font-size: 0.6em;
+      }
+  
+    .box1{
+    
+        width: 80%;
+        height: 15vh;
+        text-align: center;
+        /* padding-top: 3%; */
+        border-radius: 10px;
+        background-color: beige;
+        color: rgb(134, 126, 115);
+        margin-top: 5%;
+        margin-left: 10%;
+        
+    }
+    .box1 h1{
+         position: relative;
+         bottom: 14%;
+    }
+    .box1 p{
+        display: none;
+        
+    }
+    .box1 h1{
+        font-size: 1em;
+    
+        
+    }
+   .booking{
+    display: block;
+    position: relative;
+   }
+   .reserv{
+    font-size: 0.5em;
+    position: relative;
+    bottom: 7%;
+   }
+   .booking-table{
+    width: 80%;
+    height: 70%;
+     position: absolute;
+     bottom: 1%;
+     left: 7%;
+   }
+   .phone-no{
+   position: absolute;
+   bottom: 5px;
+  
+     width: 70%;
+     font-size: 1.1em;
+     
+   }
+   .phone-pic img{
+    width: 10%;
+         
+     
+   }
+   .menu-title h1{
+    font-size: 2em;
+   }
+ .small-pic{
+     margin: 20px;
+ }
+ .small-pic h1{
+    font-size: 1em;
+ }
+ .small-pic p{
+    font-size: 1em;
+    display: none;
+ }
+
+  .title-indian h1{
+    font-size: 3em;
+  }
+   .footer-inner{
+     display:block;
+   }
+   .footer{
+    height: 210vh;
+    
+    text-align: center;
+    }
+   .footer-inner-1{
+     font-size: 0.8em;
+   }
+   .icons-footer{
+      margin-left: 10%;
+   }
+   .footer-icons{
+     width: 50%;
+     
+   }
+
+
+   .footer-end{
+    position: relative;
+    top: 80%;
+   }
+   .delivery-bike{
+    margin-top: 18px;
+    position: relative;
+    top: 80%;
+    width: 35%;
+   }
+   .discount h1{
+    font-size: 3em;
+    width: 100%;
+    text-transform: uppercase;
+    color: white;
+  }
+  .discount4{
+     column-gap: 30%;
+  }
+  .table-2{
+    
+
+    margin-top: 5%;
+    margin-right: 10%;
+    height: 17%;
+    
+}
+.indian-pic-size{
+    width: 4%;
+    
+}
+}
