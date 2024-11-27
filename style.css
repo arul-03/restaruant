@@ -938,9 +938,9 @@ a{
     color: #FFB200;
 }
 .map{
-    /* margin-right: 20%; */
+    /* margin-right: 5%; */
     position: fixed;
-    left: 90%;
+    left: 50%;
    z-index: 4;
      
 }
