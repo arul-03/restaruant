@@ -1030,8 +1030,8 @@ a{
         width: 50%;
      }
      .offerimg img{
-        width: 220px;
-    
+        width: 150px;
+         padding-left:20px;
      }
      .btn5{
         width: 80%;
@@ -1169,7 +1169,7 @@ a{
     
 }
 .indian-pic-size{
-    width: 4%;
+    width: 2%;
     
 }
 }
